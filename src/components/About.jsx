@@ -11,7 +11,7 @@ function About() {
   }, []);
 
   return (
-    <div className="px-6 md:px-[11%] mt-16 w-full h-[100vh] md:h-[70vh] bg-white dark:bg-[#09111f]">
+    <div className="px-6 md:px-[11%] w-full h-[100vh] md:h-[70vh] bg-white dark:bg-[#09111f]">
       <div className="flex flex-col md:flex-row  md:gap-16 items-center justify-center  md:justify-between">
         <div className="w-[80%] mt-4 md:mt-0 md:w-[120rem]">
           <img
