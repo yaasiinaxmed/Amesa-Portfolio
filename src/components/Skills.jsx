@@ -6,7 +6,6 @@ import { FaWordpressSimple } from "react-icons/fa";
 import { PiFigmaLogo } from "react-icons/pi";
 import { MdDesignServices } from "react-icons/md";
 import Aos from "aos";
-import "aos/dist/aos.css";
 import { useEffect } from "react";
 
 function Skills() {

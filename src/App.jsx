@@ -5,6 +5,7 @@ import Skills from "./components/Skills"
 import Contact from "./components/Contact"
 import Social from "./components/Social"
 import Footer from "./components/Footer"
+import "aos/dist/aos.css";
 
 function App() {
 
@@ -13,10 +14,10 @@ function App() {
       <Header/>
       <Hero/>
       <About/>
-      {/* <Skills/>
+      <Skills/>
       <Contact/>
       <Social/>
-      <Footer/> */}
+      <Footer/>
     </div>
   )
 }

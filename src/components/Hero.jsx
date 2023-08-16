@@ -1,7 +1,6 @@
 import React from "react";
 import heroImage from "../assets/hero.png";
 import Aos from "aos";
-import "aos/dist/aos.css";
 import { useEffect } from "react";
 
 function Hero() {

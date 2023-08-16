@@ -1,7 +1,6 @@
 import React from "react";
 import ContactImg from "../assets/Contact us.png";
 import Aos from "aos";
-import "aos/dist/aos.css";
 import { useEffect } from "react";
 
 function Contact() {

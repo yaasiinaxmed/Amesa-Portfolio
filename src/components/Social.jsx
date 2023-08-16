@@ -1,7 +1,6 @@
 import React from "react";
 import { FaWhatsapp, FaFacebook, FaTwitter } from "react-icons/fa";
 import Aos from "aos";
-import "aos/dist/aos.css";
 import { useEffect } from "react";
 
 function Social() {
