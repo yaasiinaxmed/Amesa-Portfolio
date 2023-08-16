@@ -12,11 +12,11 @@ function App() {
     <div className="bg-white dark:bg-[#09111f]">
       <Header/>
       <Hero/>
-      <About/>
+      {/* <About/>
       <Skills/>
       <Contact/>
       <Social/>
-      <Footer/>
+      <Footer/> */}
     </div>
   )
 }
