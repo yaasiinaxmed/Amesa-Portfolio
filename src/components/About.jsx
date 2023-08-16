@@ -18,13 +18,13 @@ function About() {
             src={aboutImg}
             alt="Ameesa Solutions"
             className="w-full"
-            data-aos="fade-right"
+            // data-aos="fade-right"
           />
         </div>
         <div
           className="text-center md:text-left flex flex-col gap-4 items-center md:items-start "
-          data-aos="fade-up"
-          data-aos-anchor-placement="top-center"
+          // data-aos="fade-up"
+          // data-aos-anchor-placement="top-center"
         >
           <h2 className="font-bold text-3xl text-[#242D49] dark:text-white">
             <span className="text-[#f5c32c]">About </span> Us
