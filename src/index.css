@@ -1,3 +1,95 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+#input {
+    width: 100%;
+    padding: 12px 10px;
+    outline: none;
+    resize: none;
+    position: relative;
+}
+
+#line-hover {
+    position: relative;
+    z-index: 100;
+}
+
+#line-hover:after {
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 3px;
+    background: #f5c32c;
+    transition: 500ms width linear;
+}
+
+#input:focus + #line-hover:after {
+    width: 100%;
+}
+
+#btn {
+    padding: 9px 10px;
+    /* box-shadow: 0 4px 0 0 #8d6b05; */
+} 
+
+#progress-bar {
+    position: relative;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1)
+}
+
+#progress-bar::before {
+    position: absolute;
+    content: "";
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: .6vmin;
+    background: #f5c32c;
+    transition: 1s width;
+}
+
+#progress-bar.show:nth-child(2)::before {
+    width: 100%;
+}
+
+#progress-bar.show:nth-child(3)::before {
+    width: 96%;
+}
+
+#progress-bar.show:nth-child(4)::before {
+    width: 60%;
+}
+
+#progress-bar.show:nth-child(5)::before {
+    width: 90%;
+}
+
+#progress-bar.show:nth-child(6)::before {
+    width: 80%;
+}
+
+@media (max-width: 480px) {
+    #text-sm {
+        font-size: 0.800rem/* 14px */;
+        line-height: 1.25rem/* 20px */;
+    }
+
+    #hidden {
+        display: none;
+    }
+}
+
+@media (max-width: 460px) {
+    #text-3xl {
+        font-size: 1.875rem/* 14px */;
+        line-height: 2.25rem/* 20px */;
+    }
+
+    #w-18rem {
+        width: 18rem;
+    }
+}

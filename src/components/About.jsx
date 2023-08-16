@@ -11,20 +11,20 @@ function About() {
   }, []);
 
   return (
-    <div className="px-6 md:px-[11%] w-full h-[100vh] md:h-[70vh] bg-white dark:bg-[#09111f]">
+    <div className="mt-14 px-6 md:px-[11%] w-full h-[100vh] md:h-[70vh] bg-white dark:bg-[#09111f]">
       <div className="flex flex-col md:flex-row  md:gap-16 items-center justify-center  md:justify-between">
         <div className="w-[80%] mt-4 md:mt-0 md:w-[120rem]">
           <img
             src={aboutImg}
             alt="Ameesa Solutions"
             className="w-full"
-            // data-aos="fade-right"
+            data-aos="fade-right"
           />
         </div>
         <div
           className="text-center md:text-left flex flex-col gap-4 items-center md:items-start "
-          // data-aos="fade-up"
-          // data-aos-anchor-placement="top-center"
+          data-aos="fade-up"
+          data-aos-anchor-placement="top-center"
         >
           <h2 className="font-bold text-3xl text-[#242D49] dark:text-white">
             <span className="text-[#f5c32c]">About </span> Us
